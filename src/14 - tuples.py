@@ -43,7 +43,7 @@ thistuple = ("apple")
 print(type(thistuple))
 
 # 9. concatenating tuples with addition operator
-tuple1 = ("a", "b" , "c")
+tuple1 = ("a", "b", "c")
 tuple2 = (1, 2, 3)
 
 tuple3 = tuple1 + tuple2

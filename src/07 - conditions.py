@@ -13,9 +13,12 @@ name = "Sean"
 age = 31
 if name == "Matt" and age == 31:
     print("Your name is Matt, and you are also 31 years old.")
+    # Does not evaluate the second conditional because it fails on the first one (name == 'Matt')
+    # Like JS, both must be true.
 
 if name == "Matt" or name == "Sean":
     print("Your name is either Matt or Sean.")
+    # Prints because the first one fails, but the second one is true. Like JS only one has ot be true
 
 # 3. "in"
 my_name = "Beej"
@@ -53,10 +56,11 @@ YOU DO
 """
 # Modify the supplied code so that all of the statements evaluate to True
 # change this code
-number = 10
-second_number = 10
-first_array = []
-second_array = [1,2,3]
+number = 16
+second_number = None
+# second_number = 0 --> another original option
+first_array = [1, 2, 3]
+second_array = [1, 2]
 
 print(bool(number > 15))
 
