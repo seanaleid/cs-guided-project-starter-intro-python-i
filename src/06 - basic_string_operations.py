@@ -55,26 +55,45 @@ YOU DO
 5 minute timer
 """
 # assign the string "Strings are awesome!" to a variable
+str = "Strings are awesome!"
 
 # print the length of the string
+len(str)
 
 # print the first occurrence of "a"
+str.index('a')
 
 # print the count of the number of "a"s in the string
+str.count('a')
 
 # print the first five characters
+str[0:5] or 
+str[:5]
 
 # print the last five characters in reverse
+newstr = str.[15:20]
+newstr[::-1] or
+print(str[:-6:-1])
+
 
 # print the 17th character
+str[16:17]
+str[16]
 
 # print all the odd indexes
+print(str[1::2])
 
 # print the string in all uppercase
+str.upper()
 
 # print the string in all lowercase
+str.lower()
 
 # check that the string starts with "S" and ends with "!"
+str.startswith("S")
+str.endsswith("S")
 
 # split the string on the spaces
+splitstr = str.split(" ")
+    
 
